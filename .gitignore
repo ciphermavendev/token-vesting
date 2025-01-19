@@ -1,0 +1,59 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Testing
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Contract build info
+build/contracts
+
+# IDEs and editors
+.idea
+.vscode
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Hardhat deployment artifacts
+deployments/
+
+# Gas reporter results
+gas-report.txt
+
+# Solidity coverage
+coverage/
+coverage.json
+
+# Tenderly
+.tenderly
+
+# Foundry
+out/
+cache/
